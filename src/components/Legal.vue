@@ -1,15 +1,19 @@
 <template>
 	<div class='legal'>
-		<h1>{{ title }}</h1>
-		<p>{{ body }}</p>
-		<p>{{ param }}</p>
+		<h1>{{ copy.title }}</h1>
+		<p>{{ copy.body }}</p>
 	</div>
 </template>
 
 <script>
 export default {
 	name: 'Legal',
-	props: ['title', 'body', 'param']
+	props: {
+		'copy': {
+			type: Object,
+			required: true
+		}
+	}
 }
 </script>
 
