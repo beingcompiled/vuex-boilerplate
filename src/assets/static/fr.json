@@ -1,45 +1,61 @@
 {
 	"pages": [
 		{
-			"name": "homefr",
+			"name": "home",
 			"path": "/",
-			"link": "Home (fr)",
+			"link": "Home",
 			"props": {
-				"title": "Page Home (fr)",
-				"body": "Lorem Ipsum (fr)"
+				"copy": {
+					"title": "Page Home (fr)",
+					"body": "Lorem Ipsum"
+				},
+				"images": {
+					"hero": "/assets/image/logo.png"
+				}
 			}
 		},
 		{
-			"name": "unefr",
-			"path": "/une",
-			"link": "Une (fr)",
+			"name": "one",
+			"path": "/one",
+			"link": "One",
 			"props": {
-				"title": "Page One (fr)",
-				"body": "Lorem Ipsum (fr)"
+				"copy": {
+					"title": "Page One (fr)",
+					"body": "Lorem Ipsum"
+				},
+				"images": {
+					"hero": "/assets/image/logo2.png"
+				}
 			}
 		}
 	],
 	"footer": [
 		{
-			"name": "terms-fr",
+			"name": "terms",
 			"path": "/terms",
-			"link": "Terms & Conditions (fr)",
+			"link": "Terms & Conditions",
 			"props": {
-				"title": "Terms & Conditions (fr)",
-				"body": "Lorem Ipsum (fr)"
+				"copy": {
+					"title": "Terms & Conditions",
+					"body": "Lorem Ipsum"
+				}
 			}
 		},
 		{
-			"name": "privacy-fr",
+			"name": "privacy",
 			"path": "/privacy",
-			"link": "Privacy (fr)",
+			"link": "Privacy",
 			"props": {
-				"title": "Privacy (fr)",
-				"body": "Lorem Ipsum (fr)"
+				"copy": {
+					"title": "Privacy",
+					"body": "Lorem Ipsum"
+				}
 			}
 		}
 	],
 	"header": {
-		"title": "Le Header"
+		"copy": {
+			"title": "Header (fr)"
+		}
 	}
 }

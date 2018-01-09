@@ -1,6 +1,7 @@
 <template>
 	<div id='app'>
 		<app-header :copy='header.copy' :nav='nav'></app-header>
+		<span class="spacer"></span>
 		<app-counter></app-counter>
 		<transition name='fade' mode='out-in' v-on:after-enter='afterEnter' appear>
 			<!--  
