@@ -1,6 +1,6 @@
 <template>
 	<div id='app'>
-		<app-header :title='header.title' :nav='nav'></app-header>
+		<app-header :copy='header.copy' :nav='nav'></app-header>
 		<app-counter></app-counter>
 		<transition name='fade' mode='out-in' v-on:after-enter='afterEnter' appear>
 			<!--  
@@ -21,7 +21,20 @@
 
 	export default {
 		name: 'app',
-		props: ['pages', 'footer', 'header'],
+		props: {
+			'pages': {
+				type: Array,
+				required: true
+			},
+			'footer': {
+				type: Array,
+				required: true
+			},
+			'header': {
+				type: Object,
+				required: true
+			}
+		},
 		components: {
 			'app-header': Header,
 			'app-footer': Footer,

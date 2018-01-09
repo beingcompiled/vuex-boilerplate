@@ -5,8 +5,10 @@
 			"path": "/",
 			"link": "Home",
 			"props": {
-				"title": "Page Home",
-				"body": "Lorem Ipsum"
+				"copy": {
+					"title": "Page Home",
+					"body": "Lorem Ipsum"
+				}
 			}
 		},
 		{
@@ -14,8 +16,10 @@
 			"path": "/one",
 			"link": "One",
 			"props": {
-				"title": "Page One",
-				"body": "Lorem Ipsum"
+				"copy": {
+					"title": "Page One",
+					"body": "Lorem Ipsum"
+				}
 			}
 		}
 	],
@@ -25,8 +29,10 @@
 			"path": "/terms",
 			"link": "Terms & Conditions",
 			"props": {
-				"title": "Terms & Conditions",
-				"body": "Lorem Ipsum"
+				"copy": {
+					"title": "Terms & Conditions",
+					"body": "Lorem Ipsum"
+				}
 			}
 		},
 		{
@@ -34,12 +40,16 @@
 			"path": "/privacy",
 			"link": "Privacy",
 			"props": {
-				"title": "Privacy",
-				"body": "Lorem Ipsum"
+				"copy": {
+					"title": "Privacy",
+					"body": "Lorem Ipsum"
+				}
 			}
 		}
 	],
 	"header": {
-		"title": "Header"
+		"copy": {
+			"title": "Header"
+		}
 	}
 }

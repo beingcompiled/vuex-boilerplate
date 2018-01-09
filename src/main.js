@@ -19,8 +19,8 @@ import Legal from './components/Legal'
 
 */
 
-import fr from './assets/locale/fr.json'
-import en from './assets/locale/en.json'
+import fr from './assets/static/fr.json'
+import en from './assets/static/en.json'
 
 let staticData = (process.env.LOCALE === 'fr') ? fr : en
 
